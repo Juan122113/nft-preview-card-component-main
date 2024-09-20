@@ -31,22 +31,22 @@ body{
 
 .title{
     color: hsl(0, 0%, 100%);
-    padding: 0 21px;
+    padding: 0 25px;
     font-weight: 600;
 }
 
 .paragraph{
     color: hsl(215, 51%, 70%);
-    padding: 12px 21px;
-    line-height: 25px;
+    padding: 15px 25px;
+    line-height: 26px;
     opacity: 0.7;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .price-time{
     display: flex;
     justify-content: space-between;
-    padding: 5px 13px 5px 21px;
+    padding: 5px 13px 5px 25px;
 }
 
 .price{
@@ -81,7 +81,7 @@ body{
 .time-text{
     color: hsl(215, 51%, 70%);
     white-space: nowrap;
-    padding: 0 7px;
+    padding: 0 25px 0 7px;
     font-size: 16px;
 }
 
