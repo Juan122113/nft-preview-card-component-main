@@ -20,24 +20,26 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 3%;
+    padding: 25px;
 }
 
 .img{
-    height: 320px;
+    height: 295px;
     width: 100%;
-    padding: 25px 25px 20px 25px;
+    /* padding: 25px 25px 20px 25px; */
+    padding-bottom: 20px;
     border-radius: 32px;
 }
 
 .title{
     color: hsl(0, 0%, 100%);
-    padding: 0 25px;
+    /* padding: 0 25px; */
     font-weight: 600;
 }
 
 .paragraph{
     color: hsl(215, 51%, 70%);
-    padding: 15px 25px;
+    padding: 15px 0;
     line-height: 26px;
     opacity: 0.7;
     font-size: 16px;
@@ -46,7 +48,7 @@ body{
 .price-time{
     display: flex;
     justify-content: space-between;
-    padding: 5px 13px 5px 25px;
+    padding: 5px 13px 5px 0;
 }
 
 .price{
@@ -81,7 +83,8 @@ body{
 .time-text{
     color: hsl(215, 51%, 70%);
     white-space: nowrap;
-    padding: 0 25px 0 7px;
+    /* padding: 0 25px 0 7px; */
+    padding-left: 7px;
     font-size: 16px;
 }
 
@@ -94,14 +97,15 @@ body{
 .creation{
     color: hsl(215, 51%, 70%);
     display: inline;
-    padding: 0 0 0 21px;
+    /* padding: 0 0 0 21px; */
     font-size: 16px;
 }
 
 .avatar{
     height: 33px;
     width: auto;
-    margin: 0 15px 0 0;
+    /* margin: 0 15px 0 0; */
+    margin-right: 15px;
     border-radius: 50%;
     border: 1px white solid;
     position: relative;
