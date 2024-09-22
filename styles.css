@@ -1,7 +1,6 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
 }
 
 body{
@@ -9,11 +8,12 @@ body{
     width: 100%;
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .card{
-    height: 541px;
-    width: 330px;
+    /* height: 541px; */
+    width: 328px;
     background-color: hsl(216, 50%, 16%);
     position: absolute;
     top: 50%;
@@ -24,17 +24,18 @@ body{
 }
 
 .img{
-    height: 295px;
+    height: 275px;
     width: 100%;
     /* padding: 25px 25px 20px 25px; */
-    padding-bottom: 20px;
-    border-radius: 32px;
+    margin-bottom: 22px;
+    border-radius: 8px;
 }
 
 .title{
     color: hsl(0, 0%, 100%);
     /* padding: 0 25px; */
     font-weight: 600;
+    font-size: 1.3rem;
 }
 
 .paragraph{
