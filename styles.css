@@ -29,6 +29,31 @@ body{
     /* padding: 25px 25px 20px 25px; */
     margin-bottom: 22px;
     border-radius: 8px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+}
+
+.img:hover{
+    cursor: pointer;
+    background-color: cyan;
+    color: cyan;
+}
+
+.img-div{
+    height: 275px;
+    width: 80%;
+    /* padding: 25px 25px 20px 25px; */
+    margin-bottom: 22px;
+    border-radius: 8px;
+    position: absolute;
+    top: 10%;
+    background-color: cyan transparent 50%;
+}
+
+.img-div:hover{
+    cursor: pointer;
+    background-color: cyan transparent 50%;
+    color: cyan;
 }
 
 .title{
