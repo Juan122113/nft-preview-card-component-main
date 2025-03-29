@@ -66,6 +66,11 @@ body{
     font-size: 1.3rem;
 }
 
+.title:hover{
+    cursor: pointer;
+    color: cyan;
+}               
+
 .paragraph{
     color: hsl(215, 51%, 70%);
     padding: 15px 0;
@@ -147,10 +152,15 @@ body{
     font-size: 16px;
 }
 
+.name:hover{
+    cursor: pointer;
+    color: cyan;
+}
+
 .attribution{
     font-size: 11px;
     text-align: center;
-    color: hsl(228, 45%, 44%);
+    color: hsl(215, 51%, 70%);
     position: absolute;
     top: 100%;
     left: 50%;
@@ -158,5 +168,5 @@ body{
 }
 
 .attribution a{
-    color: hsl(228, 38%, 56%);
+    color: cyan;
 }
