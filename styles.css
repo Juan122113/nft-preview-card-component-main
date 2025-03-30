@@ -117,7 +117,6 @@ body{
 .time-text{
     color: hsl(215, 51%, 70%);
     white-space: nowrap;
-    /* padding: 0 25px 0 7px; */
     padding-left: 7px;
     font-size: 16px;
 }
@@ -131,14 +130,12 @@ body{
 .creation{
     color: hsl(215, 51%, 70%);
     display: inline;
-    /* padding: 0 0 0 21px; */
     font-size: 16px;
 }
 
 .avatar{
     height: 33px;
     width: auto;
-    /* margin: 0 15px 0 0; */
     margin-right: 15px;
     border-radius: 50%;
     border: 1px white solid;
