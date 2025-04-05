@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -14,10 +15,13 @@ body{
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
+    position: relative;
+    /* padding-bottom: 10rem; */
 }
 
 .card{
     /* height: 541px; */
+    /* height: 100%; */
     /* width: 20rem; */
     width: 90%;
     background-color: hsl(216, 50%, 16%);
@@ -31,11 +35,10 @@ body{
 
 .img{
     height: 275px;
-    /* height: 50vh; */
+    height: 40vh;
     width: 100%;
     /* width: 328px; */
     /* padding: 25px 25px 20px 25px; */
-    margin-bottom: 28px;
     border-radius: 8px;
     background-image: url(images/image-equilibrium.jpg);
     background-size: cover;
@@ -50,12 +53,13 @@ body{
 
 .img-div{
     height: 275px;
+    height: 40vh;
     width: 85%;
     /* padding: 25px 25px 20px 25px; */
     /* margin-bottom: 22px; */
     border-radius: 8px;
     position: absolute;
-    top:4.5%;
+    top:4.6%;
     /* background-color: cyan; */
 }
 
@@ -73,6 +77,7 @@ body{
     /* padding: 0 25px; */
     font-weight: 600;
     font-size: 1.3rem;
+    margin-top: 28px;
 }
 
 .title:hover{
