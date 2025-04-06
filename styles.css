@@ -23,7 +23,7 @@ body{
     /* height: 541px; */
     /* height: 100%; */
     /* width: 20rem; */
-    width: 90%;
+    width: 87%;
     background-color: hsl(216, 50%, 16%);
     position: absolute;
     top: 50%;
@@ -38,18 +38,18 @@ body{
     height: 40vh;
     width: 100%;
     /* width: 328px; */
-    /* padding: 25px 25px 20px 25px; */
+    padding: 25px 25px 20px 25px;
     border-radius: 8px;
     background-image: url(images/image-equilibrium.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 
-.img:hover{
+/* .img:hover{
     cursor: pointer;
     background-color: cyan;
     color: cyan;
-}
+} */
 
 .img-div{
     height: 275px;
@@ -190,14 +190,18 @@ body{
     .card{
         height: 600px;
         width: 350px;
+        /* width: 87%; */
     }
 
     .img{
         height: 300px;
+        /* background-size: cover; */
     }
 
     .img-div{
         height: 300px;
+        width: 87%;
+        top: 4%;
     }
 
     .paragraph{
@@ -210,4 +214,15 @@ body{
         padding-bottom: 0.6rem;
     }
     
+}
+
+@media (max-width: 240px) {
+
+    .img-div{
+        width: 77%;
+        top: 5.1%;
+    }
+    .attribution{
+        top:125%
+    }
 }
