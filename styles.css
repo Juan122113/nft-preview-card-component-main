@@ -22,8 +22,8 @@ body{
 .card{
     /* height: 541px; */
     /* height: 100%; */
-    /* width: 20rem; */
-    width: 328px;
+    width: 20rem;
+    /* width: 328px; */
     /* width: 87%; */
     background-color: hsl(216, 50%, 16%);
     position: absolute;
@@ -179,7 +179,11 @@ body{
     text-align: center;
     color: hsl(215, 51%, 70%);
     position: absolute;
-    top: 100%;
+    /* position: relative; */
+    /* top: 42rem; */
+    /* top: 800px; */
+    /* bottom: 50%; */
+    bottom: 0;
     left: 50%;
     transform: translate(-50%);
 }
@@ -216,6 +220,10 @@ body{
         padding-top: 0.7rem;
         padding-bottom: 0.6rem;
     }
+
+    /* .attribution{
+        top: 56rem;
+    } */
     
 }
 
