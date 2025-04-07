@@ -23,7 +23,8 @@ body{
     /* height: 541px; */
     /* height: 100%; */
     /* width: 20rem; */
-    width: 87%;
+    width: 328px;
+    /* width: 87%; */
     background-color: hsl(216, 50%, 16%);
     position: absolute;
     top: 50%;
@@ -34,13 +35,13 @@ body{
 }
 
 .img{
-    height: 275px;
+    /* height: 275px; */
     height: 40vh;
     width: 100%;
     /* width: 328px; */
-    padding: 25px 25px 20px 25px;
+    /* padding: 25px 25px 20px 25px; */
     border-radius: 8px;
-    background-image: url(images/image-equilibrium.jpg);
+    /* background-image: url(images/image-equilibrium.jpg); */
     background-size: cover;
     /* background-repeat: no-repeat; */
 }
@@ -59,7 +60,8 @@ body{
     /* margin-bottom: 22px; */
     border-radius: 8px;
     position: absolute;
-    top:4.6%;
+    /* top:4.6%; */
+    top: 1.5rem;
     /* background-color: cyan; */
 }
 
@@ -98,6 +100,7 @@ body{
     justify-content: space-between;
     padding: 0px 2px 5px 0;
     /* gap: 25vw; */
+    /* gap: 5.5rem; */
 }
 
 .price{
