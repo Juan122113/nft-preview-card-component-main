@@ -11,7 +11,7 @@ html{
 body{
     min-height: 100vh;
     /* height: 100%; */
-    width: 100%;
+    /* width: 100%; */
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
@@ -22,7 +22,7 @@ body{
 .card{
     /* height: 541px; */
     /* height: 100%; */
-    width: 20rem;
+    width: 20.5rem;
     /* width: 328px; */
     /* width: 87%; */
     background-color: hsl(216, 50%, 16%);
@@ -36,7 +36,7 @@ body{
 
 .img{
     /* height: 275px; */
-    height: 40vh;
+    height: 17rem;
     width: 100%;
     /* width: 328px; */
     /* padding: 25px 25px 20px 25px; */
@@ -53,8 +53,8 @@ body{
 } */
 
 .img-div{
-    height: 275px;
-    height: 40vh;
+    /* height: 275px; */
+    height: 17rem;
     width: 85%;
     /* padding: 25px 25px 20px 25px; */
     /* margin-bottom: 22px; */
@@ -79,7 +79,7 @@ body{
     /* padding: 0 25px; */
     font-weight: 600;
     font-size: 1.3rem;
-    margin-top: 28px;
+    margin-top: 1.3rem;
 }
 
 .title:hover{
@@ -89,16 +89,16 @@ body{
 
 .paragraph{
     color: hsl(215, 51%, 70%);
-    padding: 15px 0;
-    line-height: 26px;
+    padding: 1rem 0;
+    line-height: 1.6rem;
     opacity: 0.7;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .price-time{
     display: flex;
     justify-content: space-between;
-    padding: 0px 2px 5px 0;
+    padding: 0px 0.1rem 0rem 0;
     /* gap: 25vw; */
     /* gap: 5.5rem; */
 }
@@ -110,8 +110,8 @@ body{
 .icon-ethereum{
     /* position: relative; */
     /* top: 0px; */
-    width: 100%;
-    height: 87%;
+    /* width: 100%; */
+    height: 95%;
     width: auto;
 }
 
@@ -143,7 +143,7 @@ body{
 
 .line{
     color: hsl(215, 51%, 70%);
-    margin: 10px 21px 8px 21px;
+    margin: 1.1rem 0.5rem 8px 0.3rem;
     opacity: 0.3;
 }
 
@@ -183,7 +183,7 @@ body{
     /* top: 42rem; */
     /* top: 800px; */
     /* bottom: 50%; */
-    bottom: 0;
+    bottom: -3rem;
     left: 50%;
     transform: translate(-50%);
 }
@@ -192,7 +192,7 @@ body{
     color: cyan;
 }
 
-@media (min-width: 811px) {
+@media (min-width: 1025px) {
 
     .card{
         height: 600px;
