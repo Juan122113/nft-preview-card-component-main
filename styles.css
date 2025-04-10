@@ -39,10 +39,10 @@ body{
 .card{
     /* height: 541px; */
     /* height: 100%; */
-    /* width: 20.5rem; */
+    width: 20.5rem;
     /* width: 328px; */
     /* width: 100%; */
-    width: 80vw;
+    /* width: 80vw; */
     background-color: hsl(216, 50%, 16%);
     /* position: absolute; */
     position: relative;
@@ -240,11 +240,14 @@ body{
         /* height: 600px;
         width: 350px; */
         /* width: 87%; */
+        width: 24vw;
     }
 
     .img{
         /* height: 300px; */
+        height: 19rem;
         /* background-size: cover; */
+        /* margin-bottom: 1rem; */
     }
 
     /* .img-div{
@@ -253,14 +256,19 @@ body{
         top: 4%;
     } */
 
+    .title{
+        /* margin-top: 0; */
+    }
+
     .paragraph{
         font-size: 18px;
-        padding-top: 1.3rem;
+        padding-top: 1.8rem;
     }
 
     .price-time{
-        padding-top: 0.7rem;
-        padding-bottom: 0.6rem;
+        /* padding-top: 1rem; */
+        padding-top: 1rem;
+        padding-bottom: 0rem;
     }
 
     /* .attribution{
