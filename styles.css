@@ -13,6 +13,7 @@ body{
     /* min-height: 100dvh; */
     /* min-height: 100%; */
     /* height: 100%; */
+    /* height: 100vh; */
     /* width: 100%; */
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
@@ -26,22 +27,36 @@ body{
     align-items: center;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    height: 100vh;
+}
+
 .card{
     /* height: 541px; */
     /* height: 100%; */
-    width: 20.5rem;
+    /* width: 20.5rem; */
     /* width: 328px; */
-    /* width: 87%; */
+    /* width: 100%; */
+    width: 80vw;
     background-color: hsl(216, 50%, 16%);
     /* position: absolute; */
+    position: relative;
     /* top: 50%; */
     /* left: 50%; */
     /* transform: translate(-50%, -50%); */
     border-radius: 3%;
-    padding: 1.5rem;
+    padding: 1.5rem 1.3rem;
     /* overflow: auto; */
     /* margin: 16rem auto 0 auto; */
-    /* margin: 0 auto; */
+    margin: auto;
+    /* margin-top: 10vh; */
+    align-self: center;
+    place-self: center;
 }
 
 .img{
@@ -52,9 +67,14 @@ body{
     /* width: 328px; */
     /* padding: 25px 25px 20px 25px; */
     border-radius: 8px;
-    /* background-image: url(images/image-equilibrium.jpg); */
+    background-image: url(images/image-equilibrium.jpg);
     background-size: cover;
     /* background-repeat: no-repeat; */
+    /* background-color: aqua; */
+    /* order: 1; */
+    z-index: 0;
+    position: relative;
+    /* position: relative; */
 }
 
 /* .img:hover{
@@ -66,14 +86,18 @@ body{
 .img-div{
     /* height: 275px; */
     height: 17rem;
-    width: 85%;
+    /* width: 85%; */
     /* padding: 25px 25px 20px 25px; */
     /* margin-bottom: 22px; */
     border-radius: 8px;
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     /* top:4.6%; */
-    top: 1.5rem;
+    /* top: 15.5rem; */
+    /* top: 50vh; */
+    /* bottom: 14rem; */
     /* background-color: cyan; */
+    z-index: 100;
 }
 
 .img-div:hover{
@@ -85,16 +109,16 @@ body{
     background-position: center;
 }
 
-.text{
+/* .text{
     height: 100%;
-}
+} */
 
 .title{
     color: hsl(0, 0%, 100%);
     /* padding: 0 25px; */
     font-weight: 600;
     font-size: 1.3rem;
-    margin-top: 1.3rem;
+    margin-top: 1.7rem;
     /* height: 100%; */
 }
 
@@ -194,16 +218,16 @@ body{
     font-size: 11px;
     text-align: center;
     color: hsl(215, 51%, 70%);
-    position: absolute;
+    /* position: absolute; */
     /* position: relative; */
     /* top: 42rem; */
     /* top: 800px; */
     /* bottom: 50%; */
     /* bottom: -3rem; */
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-    /* margin-top: auto; */
+    /* bottom: 0; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    margin-top: auto;
 }
 
 .attribution a{
@@ -213,21 +237,21 @@ body{
 @media (min-width: 1025px) {
 
     .card{
-        height: 600px;
-        width: 350px;
+        /* height: 600px;
+        width: 350px; */
         /* width: 87%; */
     }
 
     .img{
-        height: 300px;
+        /* height: 300px; */
         /* background-size: cover; */
     }
 
-    .img-div{
+    /* .img-div{
         height: 300px;
         width: 87%;
         top: 4%;
-    }
+    } */
 
     .paragraph{
         font-size: 18px;
@@ -245,7 +269,7 @@ body{
     
 }
 
-@media (max-width: 240px) {
+/* @media (max-width: 240px) {
 
     .img-div{
         width: 77%;
@@ -254,4 +278,4 @@ body{
     .attribution{
         top:125%
     }
-}
+} */
