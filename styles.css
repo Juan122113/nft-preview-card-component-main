@@ -5,23 +5,15 @@
 }
 
 html{
-    height: 100%;    
-    /* width: 100%; */
+    height: 100%;
 }
 
 body{
     min-height: 100vh;
-    /* min-height: 100dvh; */
-    /* min-height: 100%; */
-    /* height: 100%; */
-    /* height: 100vh; */
-    /* width: 100vw; */
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
     position: relative;
-    /* padding-bottom: 10rem; */
-    /* overflow: auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,89 +30,45 @@ body{
 }
 
 .card{
-    /* height: 541px; */
-    /* height: 100%; */
     width: 20.5rem;
-    /* width: 328px; */
-    /* width: 100%; */
-    /* width: 80vw; */
     background-color: hsl(216, 50%, 16%);
-    /* position: absolute; */
     position: relative;
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
     border-radius: 3%;
     padding: 1.5rem 1.3rem;
-    /* overflow: auto; */
-    /* margin: 16rem auto 0 auto; */
     margin: auto;
-    /* margin-top: 10vh; */
     align-self: center;
     place-self: center;
 }
 
 .img{
-    /* height: 275px; */
     height: 17rem;
-    /* height: 100%; */
     width: 100%;
-    /* width: 328px; */
-    /* padding: 25px 25px 20px 25px; */
     border-radius: 8px;
     background-image: url(images/image-equilibrium.jpg);
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    /* background-color: aqua; */
-    /* order: 1; */
-    z-index: 0;
     position: relative;
-    /* position: relative; */
 }
 
-/* .img:hover{
-    cursor: pointer;
-    background-color: cyan;
-    color: cyan;
-} */
-
 .img-div{
-    /* height: 275px; */
     height: 17rem;
-    /* width: 85%; */
-    /* padding: 25px 25px 20px 25px; */
-    /* margin-bottom: 22px; */
     border-radius: 8px;
-    /* position: absolute; */
     position: relative;
-    /* top:4.6%; */
-    /* top: 15.5rem; */
-    /* top: 50vh; */
-    /* bottom: 14rem; */
-    /* background-color: cyan; */
     z-index: 100;
 }
 
 .img-div:hover{
     cursor: pointer;
     background-color: rgba(0, 255, 255, 0.531);
-    /* color: cyan; */
     background-image: url(images/icon-view.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/* .text{
-    height: 100%;
-} */
-
 .title{
     color: hsl(0, 0%, 100%);
-    /* padding: 0 25px; */
     font-weight: 600;
     font-size: 1.3rem;
     margin-top: 1.7rem;
-    /* height: 100%; */
 }
 
 .title:hover{
@@ -140,8 +88,6 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 0px 0.1rem 0rem 0;
-    /* gap: 25vw; */
-    /* gap: 5.5rem; */
 }
 
 .price{
@@ -149,9 +95,6 @@ body{
 }
 
 .icon-ethereum{
-    /* position: relative; */
-    /* top: 0px; */
-    /* width: 100%; */
     height: 95%;
     width: auto;
 }
@@ -170,8 +113,6 @@ body{
 .icon-clock{
     width: 100%;
     height: 85%;
-    /* position: relative; */
-    /* top: 0px; */
     width: auto;
 }
 
@@ -219,15 +160,6 @@ body{
     font-size: 11px;
     text-align: center;
     color: hsl(215, 51%, 70%);
-    /* position: absolute; */
-    /* position: relative; */
-    /* top: 42rem; */
-    /* top: 800px; */
-    /* bottom: 50%; */
-    /* bottom: -3rem; */
-    /* bottom: 0; */
-    /* left: 50%; */
-    /* transform: translate(-50%); */
     margin-top: auto;
 }
 
@@ -238,28 +170,15 @@ body{
 @media (min-width: 1025px) {
 
     .card{
-        /* height: 600px;
-        width: 350px; */
-        /* width: 87%; */
         width: 24vw;
     }
 
     .img{
-        /* height: 300px; */
         height: 19rem;
-        /* background-size: cover; */
-        /* margin-bottom: 1rem; */
     }
 
     .img-div{
-        /* height: 300px; */
         height: 19rem;
-        /* width: 87%; */
-        /* top: 4%; */
-    }
-
-    .title{
-        /* margin-top: 0; */
     }
 
     .paragraph{
@@ -268,14 +187,9 @@ body{
     }
 
     .price-time{
-        /* padding-top: 1rem; */
         padding-top: 1rem;
         padding-bottom: 0rem;
     }
-
-    /* .attribution{
-        top: 56rem;
-    } */
     
 }
 
@@ -300,14 +214,3 @@ body{
         height: 35rem;
     }
 }
-
-/* @media (max-width: 240px) {
-
-    .img-div{
-        width: 77%;
-        top: 5.1%;
-    }
-    .attribution{
-        top:125%
-    }
-} */
