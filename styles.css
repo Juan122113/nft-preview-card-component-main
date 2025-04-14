@@ -30,7 +30,8 @@ body{
 }
 
 .card{
-    width: 20.5rem;
+    /* width: 20.5rem; */
+    max-width: 20.5rem;
     background-color: hsl(216, 50%, 16%);
     position: relative;
     border-radius: 3%;
@@ -41,19 +42,51 @@ body{
 }
 
 .img{
-    height: 18rem;
+    /* height: 18rem; */
     width: 100%;
     border-radius: 8px;
-    background-image: url(images/image-equilibrium.jpg);
-    background-size: cover;
+    /* background-image: url(images/image-equilibrium.jpg); */
+    /* background-size: cover; */
     position: relative;
+    display: block;
+    overflow: hidden;
 }
 
-.img-div{
+.img:hover.img::after{
+    opacity: 1;
+}
+
+.img::before{
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+/* .img::after{
+    content: '';
+    display: block;
     height: 18rem;
     border-radius: 8px;
     position: relative;
     z-index: 100;
+    cursor: pointer;
+} */
+
+.img::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 255, 248, 0.5);
+    background-image: url("/images/icon-view.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .img-div:hover{
@@ -62,6 +95,20 @@ body{
     background-image: url(images/icon-view.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.img img{
+    /* height: auto; */
+    height: 100%;
+    position: absolute;
+    /* display: block; */
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    /* background-size: contain; */
+    /* right: 0; */
+    /* overflow: hidden; */
+    /* border-radius: 8px; */
 }
 
 .title{
@@ -74,6 +121,7 @@ body{
 .title:hover{
     cursor: pointer;
     color: cyan;
+    transition: all 0.3s ease-in-out;
 }               
 
 .paragraph{
@@ -154,6 +202,7 @@ body{
 .name:hover{
     cursor: pointer;
     color: cyan;
+    transition: all 0.3s ease-in-out;
 }
 
 .attribution{
@@ -170,17 +219,18 @@ body{
 @media (min-width: 1025px) {
 
     .card{
-        width: 24vw;
+        /* width: 24vw; */
+        max-width: 24vw;
     }
 
     .img{
-        height: 19rem;
+        /* height: 19rem; */
         margin-bottom: 1rem;
     }
 
-    .img-div{
+    /* .img-div{
         height: 19rem;
-    }
+    } */
 
     .title{
         /* margin-top: 0.5rem; */
@@ -188,7 +238,7 @@ body{
     }
 
     .paragraph{
-        font-size: 18px;
+        font-size: 1.13rem;
         padding-top: 0rem;
         /* margin-top: 1.5rem; */
         margin-top: 0rem;
