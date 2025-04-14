@@ -50,7 +50,7 @@ body{
 }
 
 .img-div{
-    height: 17rem;
+    height: 18rem;
     border-radius: 8px;
     position: relative;
     z-index: 100;
@@ -126,7 +126,7 @@ body{
 .line{
     color: hsl(215, 51%, 70%);
     margin: 1.1rem 0.5rem 8px 0.3rem;
-    opacity: 0.3;
+    opacity: 0.15;
 }
 
 .creation{
